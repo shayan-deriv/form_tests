@@ -129,9 +129,9 @@ class validationInReact extends React.Component {
           <div>
             <div>
               <div>
-                <label for="gender_list">Choose a gender:</label>
+                <label htmlFor="gender_list">Choose a gender:</label>
                 <select name="gender" id="cars">
-                  <option value="male" checked>
+                  <option value="select" checked>
                     select
                   </option>
                   <option value="male">male</option>
