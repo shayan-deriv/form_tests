@@ -1,3 +1,9 @@
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import "@testing-library/jest-dom";
+import App from "../App";
+
 describe("Tasks", () => {
   it("Select the option and check that option 'male' was selected", () => {
     expect(true).toBe(true);
