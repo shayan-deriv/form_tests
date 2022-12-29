@@ -33,11 +33,11 @@ describe("Tasks", () => {
     expect(true).toBe(true);
   });
 
-  it("Check that the user can't to click a submit until fields will be correct filled", () => {
+  it("Check that the user can't to submit until fields will be correct filled", () => {
     expect(true).toBe(true);
   });
 
-  it("Check that the field 'Email' should have correct validation", () => {
+  it("Check that the field 'Email' should have correct validation, haven't error message", () => {
     expect(true).toBe(true);
   });
 
